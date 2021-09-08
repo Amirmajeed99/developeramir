@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <script src="https://kit.fontawesome.com/531156bb2c.js" crossorigin="anonymous"></script>
+    <title>Book List</title>
+    <style>
+        .sucess,
+        .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+
+        .sucess {
+            background-color: green;
+        }
+
+        .error {
+            background-color: red;
+        }
+
+        .footermsg {
+            text-align: center;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .c1 {
+            /* margin-bottom: 10px; */
+
+        }
+
+        .c2 {
+            margin-top: 20px;
+        }
+
+        #icon2 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon2:hover {
+            color: rgb(42, 42, 187);
+        }
+
+        #icon3 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon3:hover {
+            color: rgb(67, 196, 201);
+
+        }
+
+        #icon4 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon4:hover {
+            color: rgb(253, 6, 55);
+        }
+
+        #icon5 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon5:hover {
+            color: rgb(36, 190, 241);
+        }
+
+        .icondiv {
+            text-align: center;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Book</h1>
+        <form id="book-form">
+            <div>
+                <label for="title">Title</label>
+                <input type="text" id="title" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="author">Author</label>
+                <input type="text" id="author" class="u-full-width">
+            </div>
+
+            <div>
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn" class="u-full-width">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" class="u-full-width">
+            </div>
+        </form>
+        <hr>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid c2">
+        <div class="footer">
+            <h5 class="footermsg">Developed & Designed By Amir Majeed</h5>
+            <div class="container">
+                <hr>
+                <div class="icondiv">
+                    <span><a class="melinks" href="https://m.facebook.com/aamir.majeed.31508076" target="_blank"><i
+                                class="fab fa-facebook" id="icon2"></i></a></span>
+                    <span><a class="melinks" href="https://mobile.twitter.com/Lucky___99" target="_blank"><i
+                                class="fab fa-twitter" id="icon3"></i></a></span>
+                    <span><a class="melinks" href="https://www.instagram.com/amir.majeed_official" target="_blank"><i
+                                class="fab fa-instagram" id="icon4"></i></a></span>
+                    <span><a class="melinks" href="https://t.me/Aamir_Majeed" target="_blank"><i class="fab fa-telegram"
+                                id="icon5"></i></a></span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<!-- <script src="app.js"></script> -->
+<script src="appes6.js"></script>
+
+</html>

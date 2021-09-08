@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/531156bb2c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Number Guesser</title>
+    <style>
+        .heading {
+            font-family: monospace;
+        }
+
+        #para1 {
+            font-family: monospace;
+            text-transform: capitalize;
+            font-size: 15px;
+        }
+
+        .footermsg {
+            text-align: center;
+            font-family: monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        .c1 {
+            margin-bottom: 10px;
+            
+        }
+
+        .c2 {
+            margin-top: 120px;
+        }
+
+        #icon2 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon2:hover {
+            color: rgb(42, 42, 187);
+        }
+
+        #icon3 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon3:hover {
+            color: rgb(67, 196, 201);
+            
+        }
+
+        #icon4 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon4:hover {
+            color: rgb(253, 6, 55);
+        }
+
+        #icon5 {
+            font-size: 35px;
+            color: rgb(78, 78, 78);
+        }
+
+        #icon5:hover {
+            color: rgb(36, 190, 241);
+        }
+        .icondiv{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container c1">
+        <h1 class="heading">Number Guesser</h1>
+        <div id="game">
+            <p id="para1">Guess a number between <span class="min-num"></span> and <span class="max-num"></span></p>
+            <input type="number" id="guess-input" placeholder="Enter your guess">
+            <input type="submit" value="Submit" id="guess-btn">
+            <p class="message"></p>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid c2">
+        <div class="footer">
+            <h5 class="footermsg">Developed & Designed By Amir Majeed</h5>
+            <div class="container">
+                <hr>
+                <div class="icondiv">
+                    <span><a class="melinks" href="https://m.facebook.com/aamir.majeed.31508076" target="_blank"><i
+                                class="fab fa-facebook" id="icon2"></i></a></span>
+                    <span><a class="melinks" href="https://mobile.twitter.com/Lucky___99" target="_blank"><i
+                                class="fab fa-twitter" id="icon3"></i></a></span>
+                    <span><a class="melinks" href="https://www.instagram.com/amir.majeed_official" target="_blank"><i
+                                class="fab fa-instagram" id="icon4"></i></a></span>
+                    <span><a class="melinks" href="https://t.me/Aamir_Majeed" target="_blank"><i class="fab fa-telegram"
+                                id="icon5"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
